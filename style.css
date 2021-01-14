@@ -1095,12 +1095,15 @@ input[type=text], textarea {
     box-sizing: border-box;
   }
 
-
+ input::placeholder {
+    color: #464646!important;
+  }
 
 input[type=submit] {
     width: 100%;
     background-color:#F3976C;
-    color: white;
+    color: #333333;
+    font-weight: 600;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
