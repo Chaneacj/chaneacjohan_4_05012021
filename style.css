@@ -1118,3 +1118,7 @@ input[type=submit] {
     border: 1px solid #F3976C;
   }
 
+  .label-align {
+      display: block;
+  }
+
